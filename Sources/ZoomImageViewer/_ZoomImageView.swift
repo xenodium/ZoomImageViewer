@@ -26,7 +26,7 @@ struct _ZoomImageView<CloseButtonStyle: ButtonStyle>: View {
     
     @GestureState private var isDragging = false
     
-    let animationSpeed = 0.1
+    let animationSpeed = 0.2
     let dismissThreshold: CGFloat = 200
     let opacityAtDismissThreshold: Double = 0.8
     let dismissDistance: CGFloat = 1000
